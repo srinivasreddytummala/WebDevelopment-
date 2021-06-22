@@ -1,0 +1,50 @@
+h2 {
+    color:  red;
+}
+
+p {
+    color: blue ;
+}
+
+/* .primary {
+    text-align: center;
+} */
+
+h2+p:hover {
+    text-align: center;
+    border: 5px solid greenyellow;
+}
+
+body {
+    background-image: url(mariahkrafft-unsplash.jpg);
+    background-size: cover;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.modifycursor {
+    cursor: pointer;
+}
+
+.webtext:last-child {
+    border: 5px dashed orange;
+}
+
+.active {
+    color: palevioletred;
+}
+
+#div1 {
+    background-color: purple;
+}
+
+#div2 {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+p {
+    text-decoration: line-through;
+}
