@@ -46,5 +46,18 @@ li {
 }
 
 p {
-    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: chartreuse;
+    text-transform:capitalize;
+    line-height: 30px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+img {
+     height: 500px;
+     width: 200px;
+     float: right;
 }
